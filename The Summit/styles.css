@@ -1,0 +1,50 @@
+a {
+  color:  #2176FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #5495ff;
+}
+
+.btn {
+  border: 1px solid black;
+  background-color: #2176FF; 
+  text-decoration: none;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 14px;
+}
+
+ .btn:hover {
+  background-color: blue;
+ }
+
+ .btn:active {
+  color: white;
+ }
+
+ .activity {
+  border: 1px solid #2176FF;
+  text-decoration: none;
+ }
+
+ .activity:hover{
+  background-color: blue;
+ }
+
+ .activity:active {
+  color: black;
+ }
