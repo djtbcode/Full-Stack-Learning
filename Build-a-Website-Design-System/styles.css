@@ -1,23 +1,45 @@
-<!--Colours styles-->
-.colors{
-    display: block;
+.container {
+  border: 2px solid #a2a2a6;
+  padding: 10px;
+  margin: 10px auto;
+}
+
+.color-container {
+  width: 100%;
+}
+
+.color-panel {
+  display: inline-block;
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  min-height: 100px;
 }
 
 .blue{
     background-color: #2d5dcc;
+    color: #fff;
+}
+
+.burgundy{
+  background-color: #800020;
+  color: #fff;
+}
+
+.pink{
+  background-color: #d957d9;
+  color: #fff;
+}
+
+.mint-green{
+  background-color: #4fe0b0;
+  color: #fff;
 }
 
 
-
-<!--Font styles-->
 .fonts h2{
   text-decoration: underline;
 }
-
-.fonts .normal{
-  font-style: normal;
-}
-
 .fonts .bold{
     font-weight: bold;
 }
@@ -25,7 +47,6 @@
     font-style: italic;
 }
 
-<!--Font Families-->
 .source-code-pro{
   font-family: 'Source Code Pro', monospace;
 }
